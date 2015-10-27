@@ -12,7 +12,9 @@ Only the workstation setup sections are mandatory pre-requisites for course atte
 
 [Linux workstation setup with chefdk/testkitchen](#linux workstation setup with chefdk/testkitchen) ( 15 minutes approx. )
 
-Additional Resources
+[Additional Resources](#Additional Resources)
+
+[Additional Resources](#additional Resources)
 
 Recommended editors for text editing
 
