@@ -45,7 +45,7 @@ vagrant plugin install vagrant-winrm
 ```
 note replace "\<username\>" with your windows username
 ```
-cd c:\users\username\
+cd c:\users\<username>\
 mkdir Source
 cd Source
 kitchen init
