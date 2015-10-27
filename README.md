@@ -9,10 +9,15 @@ Bring your own Laptop required, no equipment will be provided.
 Only the workstation setup sections are mandatory pre-requisites for course attendance.
 
 Windows workstation setup with chefdk/testkitchen ( 15 minutes approx. )
+
 Linux workstation setup with chefdk/testkitchen ( 15 minutes approx. )
+
 Additional Resources
+
 Recommended editors for text editing
+
 Generate a windows virtualbox windows image.
+
 Chef Fundamentals Checklist - Classroom requirements
 
 
@@ -20,10 +25,15 @@ Chef Fundamentals Checklist - Classroom requirements
 
 At least 15Gb free space, needed for vm images. 
 install:-
+
 chefdk, -  https://downloads.chef.io/chef-dk 
+
 virutalbox  - https://www.virtualbox.org/wiki/Downloads
+
 vagrant - https://www.vagrantup.com/downloads.html
+
 git - use github install https://windows.github.com/
+
 Path problems  - On Microsoft Windows, C:/opscode/chefdk/bin must be before C:/opscode/chefdk/embedded/bin in the PATH.
 
 Run the following commands to verify the install, if not working, fix. 
@@ -41,6 +51,7 @@ cd Source
 kitchen init
 ```
 Edit “.kitchen.yml” file in current directory ( ensure you have the full stop at the beginning of the file name ), and change the  following :-
+
 Change from this:-
 ```
   platforms:
@@ -64,7 +75,9 @@ kitchen destroy
 ```
 note: this destroys the machine, you might want to do a kitchen login to play around before destruction
 nb  ssh.exe is needed, and should use a 'git shell' from the github install above.  There are other alternatives to using 'git shell', but this will not be covered as part of the course.
+
 Troubleshooting, ensure no spaces in the path on local directory
+
 If you find, the centos box and linux troublesome, then you can generate your own virtualbox image and use winrm to connect instead of ssh, but beware, this is a lot more involved.  Instructions follow at the end of this document, with title 'Generate a windows virtualbox windows image'. 
 
 Install a better shell in windows - Conemu is a better shell for windows development 
@@ -75,9 +88,13 @@ http://conemu.github.io/
 
 At least 15Gb free space, needed for vm images. 
 install:-
+
 chefdk, -  https://downloads.chef.io/chef-dk 
+
 virutalbox  - https://www.virtualbox.org/wiki/Downloads
+
 vagrant - https://www.vagrantup.com/downloads.html
+
 # Linux - Ubuntu specific - workaround
 ```
 echo 'export PATH="/opt/chefdk/embedded/bin:$PATH"' >> ~/.bash_profile && source ~/.bash_profile
