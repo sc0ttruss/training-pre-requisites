@@ -97,7 +97,7 @@ virutalbox  - https://www.virtualbox.org/wiki/Downloads
 
 vagrant - https://www.vagrantup.com/downloads.html
 
-# Linux - Ubuntu specific - workaround
+## Linux - Ubuntu specific - workaround
 ```
 echo 'export PATH="/opt/chefdk/embedded/bin:$PATH"' >> ~/.bash_profile && source ~/.bash_profile
 ```
@@ -113,7 +113,7 @@ Create or modify a file called .gemrc in your home path, including the line :
 ssl_verify_mode: 0
 ```
 
-# End of Ubuntu specific workaround
+## End of Ubuntu specific workaround
 
 Run the following commands ( from a shell, eg bash ) to verify the install, if not working, fix. 
 ```
@@ -215,7 +215,7 @@ kitchen-hyperv
 https://github.com/test-kitchen/kitchen-hyperv
 
 
-# Security related links
+## Security related links
 
 Chef Audit Mode: CIS Benchmarks
 https://www.chef.io/blog/2015/04/09/chef-audit-mode-cis-benchmarks
@@ -226,7 +226,7 @@ http://infra-talk.org/author/joshua-timberman
 Chef server default ports
 https://docs.chef.io/server_firewalls_and_ports.html
 
-# Random links
+## Random links
 
 Multinode test kitchen
 http://www.hurryupandwait.io/blog/orchestrating-multi-server-tests-in-test-kitchen
@@ -242,12 +242,12 @@ Code
 https://github.com/chef-training/introduction_to_testing
 
 # Recommended editors for text editing.  Not mandatory, any text editor will do, but some are more efficient.
-Atom - free, no license warnings
+##Atom - free, no license warnings
 
 https://atom.io/
 
 
-Sublime text 
+##Sublime text 
 
 Sublime text - free, with license warnings ( inexpensive license ) links:- 
 
