@@ -73,14 +73,16 @@ kitchen create
 kitchen diagnose
 kitchen destroy 
 ```
-note: this destroys the machine, you might want to do a `kitchen login` to play around before destruction
-nb  ssh.exe is needed, and should use a 'git shell' from the github install above.  There are other alternatives to using 'git shell', but this will not be covered as part of the course.
+note: this destroys the machine, you might want to do a `kitchen login` to play around before destruction.
+
+nb  ssh.exe is needed, and you should use a 'gitshell' from the github install above ( ie use gitshell instead of dos or powershell window).  There are other alternatives to using 'gitshell', but this will not be covered as part of the course.
 
 Troubleshooting, ensure no spaces in the path on local directory
 
-If you find, the centos box and linux troublesome, then you can generate your own virtualbox image and use winrm to connect instead of ssh, but beware, this is a lot more involved.  Instructions follow at the end of this document, with title 'Generate a windows virtualbox windows image'. 
+If you find, the centos box and linux troublesome, then you can generate your own virtualbox windows image and use winrm to connect instead of ssh, but beware, this is a lot more involved.  Instructions follow at the end of this document, with title 'Generate a windows virtualbox windows image'. 
 
-Install a better shell in windows - Conemu is a better shell for windows development 
+Advanced usage:- Install a better shell in windows - Conemu is a better shell for windows development 
+
 http://conemu.github.io/
 
 
@@ -103,10 +105,15 @@ go to ~/.bashrc and add the following entry towards the end of file
 ```
 #Source bash_profile to set JAVA_HOME and add it to the PATH because for some reason is not being picked up 
 . ~/.bash_profile
-#To avoid ssl errors when downloading with man in the middle proxy for ssl.
-Create or modify a file called .gemrc in your home path, including the line :ssl_verify_mode: 0
 ```
-End of Ubuntu specific workaround
+To avoid ssl errors when downloading with man in the middle proxy for ssl.
+
+Create or modify a file called .gemrc in your home path, including the line :
+```
+ssl_verify_mode: 0
+```
+
+# End of Ubuntu specific workaround
 
 Run the following commands to verify the install, if not working, fix. 
 ```
