@@ -4,7 +4,7 @@ Workstation install pre-requisites for chef training, using chefdk, vagrant and 
 
 # Chef training.  Requirements for class 
 
-Staying current with the lastest versions is the way of Devops.
+[Staying current with the lastest versions is the way of Devops] #Staying current with the lastest versions is the way of Devops.
 Bring your own Laptop required, no equipment will be provided.
 Only the workstation setup sections are mandatory pre-requisites for course attendance.
 
@@ -215,7 +215,8 @@ kitchen-hyperv
 https://github.com/test-kitchen/kitchen-hyperv
 
 
-Security related
+# Security related links
+
 Chef Audit Mode: CIS Benchmarks
 https://www.chef.io/blog/2015/04/09/chef-audit-mode-cis-benchmarks
 
@@ -225,7 +226,8 @@ http://infra-talk.org/author/joshua-timberman
 Chef server default ports
 https://docs.chef.io/server_firewalls_and_ports.html
 
-Random
+# Random links
+
 Multinode test kitchen
 http://www.hurryupandwait.io/blog/orchestrating-multi-server-tests-in-test-kitchen
 
@@ -240,9 +242,14 @@ Code
 https://github.com/chef-training/introduction_to_testing
 
 # Recommended editors for text editing.  Not mandatory, any text editor will do, but some are more efficient.
+Atom - free, no license warnings
+
+https://atom.io/
+
+
 Sublime text 
 
-Sublime text links:- 
+Sublime text - free, with license warnings ( inexpensive license ) links:- 
 
 http://www.bonusbits.com/main/HowTo:Install_Chef_Support_in_Sublime_Text
 
