@@ -10,7 +10,7 @@ Only the workstation setup sections are mandatory pre-requisites for course atte
 
 [Windows workstation setup with chefdk/testkitchen](#Windows workstation setup with chefdk/testkitchen) ( 15 minutes approx. )
 
-Linux workstation setup with chefdk/testkitchen ( 15 minutes approx. )
+[Linux workstation setup with chefdk/testkitchen](#linux workstation setup with chefdk/testkitchen) ( 15 minutes approx. )
 
 Additional Resources
 
