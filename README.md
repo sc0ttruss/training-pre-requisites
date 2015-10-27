@@ -14,7 +14,7 @@ Only the workstation setup sections are mandatory pre-requisites for course atte
 
 [Additional Resources](#Additional Resources)
 
-[Additional Resources](#additional resources)
+[Additional Resources](#additional-resources)
 
 Recommended editors for text editing
 
