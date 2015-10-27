@@ -8,7 +8,7 @@ Staying current with the lastest versions is the way of Devops.
 Bring your own Laptop required, no equipment will be provided.
 Only the workstation setup sections are mandatory pre-requisites for course attendance.
 
-[Windows workstation setup with chefdk/testkitchen](#Windows workstation setup with chefdk/testkitchen) ( 15 minutes approx. )
+[Windows workstation setup with chefdk/testkitchen](#windows-workstation-setup-with-chefdktestkitchen--15-minutes-approx-) ( 15 minutes approx. )
 
 [Linux workstation setup with chefdk/testkitchen](#linux workstation setup with chefdk/testkitchen) ( 15 minutes approx. )
 
