@@ -115,7 +115,7 @@ ssl_verify_mode: 0
 
 # End of Ubuntu specific workaround
 
-Run the following commands to verify the install, if not working, fix. 
+Run the following commands ( from a shell, eg bash ) to verify the install, if not working, fix. 
 ```
 chef -v
 chef verify
@@ -127,8 +127,9 @@ cd Source
 kitchen init
 ```
 Edit “.kitchen.yml” file in current directory ( ensure you have the full stop at the beginning of the file name ), and change the  following :-
-```
+
 Change from this:-
+```
   platforms:
     - name: ubuntu-12.04
     - name: centos-6.4
@@ -142,15 +143,15 @@ Now run the following:-
 ```
 kitchen list
 ```
-This command also validates the yaml file format in '.kitchen.yml' file, so get used to running this after every edit of the file
+This command also validates the yaml file format in '.kitchen.yml' file, so get used to running this after every edit of the file.
 ```
 kitchen create
 kitchen diagnose 
 kitchen destroy
 ```
-note: this destroys the machine, you might want to do a 'kitchen login' to play around before destruction.
+note: this destroys the machine, you might want to do a `kitchen login` to play around before destruction.
 
-#   End of workstation setup/config, the remainder of this document is for informational and reference purposes, however it you are interested, read on.
+#   End of workstation setup/config, the remainder of this document is for informational and reference purposes, however if you are interested, read on.
 
 
 # Additional Resources
