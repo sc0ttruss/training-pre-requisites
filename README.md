@@ -10,17 +10,15 @@ Only the workstation setup sections are mandatory pre-requisites for course atte
 
 [Windows workstation setup with chefdk/testkitchen](#windows-workstation-setup-with-chefdktestkitchen--15-minutes-approx-) ( 15 minutes approx. )
 
-[Linux workstation setup with chefdk/testkitchen](#linux workstation setup with chefdk/testkitchen) ( 15 minutes approx. )
-
-[Additional Resources](#Additional Resources)
+[Linux workstation setup with chefdk/testkitchen](#linux-workstation-setup-with-chefdktestkitchen--15-minutes-approx-) ( 15 minutes approx. )
 
 [Additional Resources](#additional-resources)
 
-Recommended editors for text editing
+[Recommended editors for text editing](#recommended-editors-for-text-editing--not-mandatory-any-text-editor-will-do-but-some-are-more-efficient)
 
-Generate a windows virtualbox windows image.
+[Generate a windows virtualbox windows image](#generate-a-windows-virtualbox-windows-image)
 
-Chef Fundamentals Checklist - Classroom requirements
+[Chef Fundamentals Checklist - Classroom requirements](#chef-fundamentals-checklist---classroom-requirements)
 
 
 # Windows workstation setup with chefdk/testkitchen ( 15 minutes approx. )
