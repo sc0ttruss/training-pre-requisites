@@ -43,7 +43,7 @@ chef verify
 vagrant plugin install virtualbox
 vagrant plugin install vagrant-winrm
 ```
-note replace "username" with your windows username
+note replace "\<username\>" with your windows username
 ```
 cd c:\users\username\
 mkdir Source
