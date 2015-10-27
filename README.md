@@ -18,7 +18,7 @@ Only the workstation setup sections are mandatory pre-requisites for course atte
 
 [Generate a windows virtualbox windows image](#generate-a-windows-virtualbox-windows-image)
 
-[Chef Fundamentals Checklist - Classroom requirements](#chef-fundamentals-checklist---classroom-requirements)
+[Chef Training Checklist - Classroom requirements](#chef-training-checklist---classroom-requirements)
 
 
 # Windows workstation setup with chefdk/testkitchen ( 15 minutes approx. )
@@ -286,7 +286,7 @@ note: this installs with "no config management - nocm", also this downloads the 
 
 Note, packer relies on 'make', and unless you have this configured and working ( eg you have installed Microsoft Virtual Studio ).  Configuration and installation of make is beyond the scope of this class.   The alternative, is to install packer on a linux workstation ( make comes by default ), and build the images there. ( this is almost an anti-pattern, but it is so much easier on linux to build a windows image ).
 
-# Chef Fundamentals Checklist - Classroom requirements
+# Chef Training Checklist - Classroom requirements
 
  - How many people will join the training and what's their background?
 eg, developer, sysadmin, manager etc.
