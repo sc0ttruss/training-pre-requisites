@@ -61,7 +61,7 @@ Change from this:-
 To this:-
 ```
   platforms:
-    -	name: centos-7.1
+    - name: centos-7.1
 ```
 Now run the following:-
 ```
@@ -73,7 +73,7 @@ kitchen create
 kitchen diagnose
 kitchen destroy 
 ```
-note: this destroys the machine, you might want to do a kitchen login to play around before destruction
+note: this destroys the machine, you might want to do a `kitchen login` to play around before destruction
 nb  ssh.exe is needed, and should use a 'git shell' from the github install above.  There are other alternatives to using 'git shell', but this will not be covered as part of the course.
 
 Troubleshooting, ensure no spaces in the path on local directory
