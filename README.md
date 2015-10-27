@@ -36,14 +36,14 @@ git - use github install https://windows.github.com/
 
 Path problems  - On Microsoft Windows, C:/opscode/chefdk/bin must be before C:/opscode/chefdk/embedded/bin in the PATH.
 
-Run the following commands to verify the install, if not working, fix. 
+Run the following commands ( in a dos or powershell window ) to verify the install, if not working, fix. 
 ```
 chef -v
 chef verify 
 vagrant plugin install virtualbox
 vagrant plugin install vagrant-winrm
 ```
-note replace <username> with your windows username
+note replace "<username>" with your windows username
 ```
 cd c:\users\<username>\
 mkdir Source
