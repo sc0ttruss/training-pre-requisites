@@ -272,7 +272,9 @@ https://github.com/wuub/SublimeREPL/pull/372/files
 # Generate a windows virtualbox windows image. 
 Install:
 Packer   https://packer.io/
+
 Path problems  - On Microsoft Windows, C:/\<PATHTOPACKER\> must be in the PATH.
+
 Hint:  change \<PATHTOPACKER>\ to the location where packer.exe is installed
 ```
 cd c:\users\<username>\Source
