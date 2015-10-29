@@ -242,9 +242,55 @@ Code
 https://github.com/chef-training/introduction_to_testing
 
 # Recommended editors for text editing.  Not mandatory, any text editor will do, but some are more efficient.
-##Atom - free, no license warnings
+##Atom - free, no license warnings, and probably the coolest features for chef.  Inline rubucop and foodcritic
 
 https://atom.io/
+
+Install the linter tool, by doing the following:-
+Mac Install of Atom - may be slighlty different in other OS's, please submit a pull request with details of other OS's
+Open Atom,
+
+Run the following commands:-
+
+```
+apm install linter
+apm install linter-rubocop
+apm install linter-foodcritic
+apm install language-chef
+```
+Quit atom and restart ( this seems to be necessary for every plugin addition )
+
+Open a file called atomtest.rb, save it, then add the following code:-
+```
+package remote_file '/opt/chef/file' do
+ sou1rce 'http://myfile'
+ owner "root"
+group 'root'
+checksum 'abc123'
+end
+```
+You shuuld see errors inline for the above code.  Fix them all.
+
+then add this
+```
+file '/tmp/something' do
+  punter 'root'
+  action :create
+end
+```
+you should see 4 foodcritic errors.
+
+Again fix them and now everything should be working.
+
+Note:  If you get an error ( red on screen )
+```
+Error: invalid option: --cache 
+```
+Then do the following to update rubocop to the latest version
+```
+chef gem install rubocop
+```
+Currently rubocop-0.34.2 is the latest. 
 
 
 ##Sublime text 
