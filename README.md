@@ -48,6 +48,10 @@ note replace "\<username\>" with your windows username
 cd c:\users\<username>\
 mkdir Source
 cd Source
+git clone https://github.com/ChefRycar/chef-preflight.git
+```
+The above command ensures git is working, and we will use that code to validate the workstation connectivity in class
+```
 kitchen init
 ```
 Edit “.kitchen.yml” file in current directory ( ensure you have the full stop at the beginning of the file name ), and change the  following :-
@@ -97,6 +101,8 @@ virutalbox  - https://www.virtualbox.org/wiki/Downloads
 
 vagrant - https://www.vagrantup.com/downloads.html
 
+microsoft remote desktop ( for mac chef here https://technet.microsoft.com/en-us/library/dn473012.aspx ), for linux, many RDp clients exist ,choose your favourite ( required for chef essentials class )
+
 ## Linux - Ubuntu specific - workaround
 ```
 echo 'export PATH="/opt/chefdk/embedded/bin:$PATH"' >> ~/.bash_profile && source ~/.bash_profile
@@ -124,6 +130,10 @@ vagrant plugin install vagrant-winrm
 cd ~
 mkdir Source
 cd Source
+git clone https://github.com/ChefRycar/chef-preflight.git
+```
+The above command ensures git is working, and we will use that code to validate the workstation connectivity in class
+```
 kitchen init
 ```
 Edit “.kitchen.yml” file in current directory ( ensure you have the full stop at the beginning of the file name ), and change the  following :-
@@ -334,11 +344,14 @@ Note, packer relies on 'make', and unless you have this configured and working (
 
 # Chef Training Checklist - Classroom requirements
 
- - How many people will join the training and what's their background?
-eg, developer, sysadmin, manager etc.
+ - Training location, address and any special requirements
 
- - What operating systems are being used for workstations/laptops?
-Admin access required for windows, usb ports working ( please advise if this is against security policy ).
+ - Preferred start and end times for the training?
+
+ - Attendee list for the class, their role in the organisation? and background?
+eg, developer, sysadmin, manager etc. Optionally any notes about experience with scripting, config mgmt or powershell, and whether they use windows, OSX or linux.
+
+'note: Admin access required for windows, usb ports working ( please advise if this is against security policy ).'
 
  - What operating systems are planned to be managed by Chef?
 Primary OS, secondary OS etc...
@@ -352,7 +365,7 @@ Strong wifi, 2.4Ghz/5Ghz preferred, wifi username/password
 
 If you are providing a classroom, it should be large enough to accommodate the entire class comfortably, with a table and chair for each person.  
 
-Internet access is required in the classroom, wifi is OK, but it has to work, as internet access is a mandatory part of the class.  ( vm cloud instance will be provided for each student )
+Internet access is required in the classroom, wifi is OK, but it has to work, as internet access is a mandatory part of the class.  ( vm cloud instance will be provided for each student ).  Ports 22.80, 443 as a minimum, TCP/IP ( outbound rules )
 
 Projector and screen with vga/hdmi/DVI cable
 
