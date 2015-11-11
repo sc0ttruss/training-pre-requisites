@@ -39,8 +39,8 @@ Path problems  - On Microsoft Windows, C:/opscode/chefdk/bin must be before C:/o
 Run the following commands ( in a dos or powershell window ) to verify the install, if not working, fix. 
 ```
 chef -v
+
 chef verify 
-vagrant plugin install virtualbox
 vagrant plugin install vagrant-winrm
 ```
 note replace "\<username\>" with your windows username
@@ -125,7 +125,6 @@ Run the following commands ( from a shell, eg bash ) to verify the install, if n
 ```
 chef -v
 chef verify
-vagrant plugin install virtualbox
 vagrant plugin install vagrant-winrm 
 cd ~
 mkdir Source
