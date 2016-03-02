@@ -129,7 +129,7 @@ vagrant plugin install vagrant-winrm
 cd ~
 mkdir Source
 cd Source
-git clone https://github.com/ChefRycar/chef-preflight.git
+git clone https://github.com/chef-cft/chef-preflight.git
 ```
 The above command ensures git is working, and we will use that code to validate the workstation connectivity in class
 ```
